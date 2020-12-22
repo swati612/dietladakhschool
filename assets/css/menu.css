@@ -1,0 +1,245 @@
+.L {
+  float: left;
+}
+.menu {
+  background-image: url("http://dc345.4shared.com/img/g7RtSxFb/s3/140f9a58cd8/MenuBG.png");
+  background-position: center center;
+  background-repeat: repeat-x;
+
+  height: 50px;
+  background-color: #5a858e;
+}
+.menu,
+.menu > nav,
+.menu > ul {
+  display: inline-block;
+  width: 100%;
+}
+
+.menu > nav > ul {
+  width: 70%;
+  margin: 0 auto;
+}
+.first,
+.first > a {
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: Tahoma;
+  color: #fff;
+  margin-left: 11px;
+  margin-right: 11px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.first:hover {
+  cursor: pointer;
+  padding-bottom: px;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.first:hover > ul,
+.skin {
+  display: block;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-top: -5px;
+  z-index: 90;
+  width: 250px;
+  max-width: 250px;
+}
+.first > ul {
+  position: absolute;
+  width: auto;
+  background-color: #fff;
+  display: none;
+}
+.first > ul > li {
+  padding-right: 5px;
+  padding-left: 0px;
+  border-left: 4px solid #35678f;
+  margin-bottom: 1px;
+}
+.first > ul > li:hover {
+  padding-right: 0px;
+  padding-left: 5px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #35678f;
+  border-left: 4px solid #fff;
+}
+.first > ul > li:hover a {
+  color: #fff;
+}
+.first > ul > a,
+.first > ul > li {
+  color: #35678f;
+  font-size: 15px;
+  line-height: 30px;
+}
+.first:nth-child(1) > ul {
+  margin-left: -11px;
+}
+.first:last-child > ul {
+  margin-left: -52px;
+}
+@media screen and (max-width: 655px) {
+  .menu {
+    background-color: #1d4b70;
+    height: auto;
+    background-image: none;
+    display: none;
+  }
+  .L {
+    float: none;
+    clear: both;
+    width: 100%;
+    text-align: center;
+  }
+  .first > ul {
+    position: static;
+    width: 100%;
+  }
+  .first:hover ul {
+    display: none;
+    width: 100%;
+    max-width: 100%;
+  }
+  .clickable {
+    background-image: url("http://dc369.4shared.com/img/RAxWhDgy/s3/140f9ba8408/reorder.png");
+    background-color: #1d4b70;
+    width: 40px;
+    height: 40px;
+
+    position: fixed;
+    top: 107px;
+    /* left: 0px; */
+    cursor: pointer;
+    right: 0;
+  }
+}
+.footer {
+  background-color: #f3f3f3;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  margin-bottom: 20px;
+}
+.footer > ul {
+  display: flex;
+  width: 88%;
+  margin: 0 auto;
+}
+.footer > ul > li:hover > img {
+}
+@-webkit-keyframes shake {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translateX(10px);
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+.animated {
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation: shake 5s infinite;
+}
+.footer_menu {
+  background-color: #313231;
+  padding: 10px;
+}
+.footer_menu > ul {
+  display: flex;
+  width: 64%;
+  margin: 0 auto;
+}
+.footer_menu > ul > li {
+  /* width: 18%; */
+  padding: 5px 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.footer_menu > ul > li > a {
+  color: #fff;
+}
+.footer-bottom {
+  background-color: #131313;
+}
+
+#topBar {
+  border-bottom: 1px solid #c2c0c1;
+  padding: 10px;
+  width: 100%;
+  float: left;
+}
+#topBar .govBranding ul li:first-child {
+  border-right: 1px solid #c2c0c1;
+}
+#topBar ul,
+#topBar ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0px;
+}
+#topBar .govBranding ul li {
+  float: left;
+  padding: 0 10px;
+}
+.owl-theme .owl-nav {
+  margin-top: 0px !important;
+}
+button.owl-prev > span {
+  font-size: 20px;
+}
+button.owl-next > span {
+  font-size: 20px;
+}
