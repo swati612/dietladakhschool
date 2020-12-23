@@ -16,10 +16,10 @@
 .menu > nav,
 .menu > ul {
   display: inline-block;
-  width: 98%;
+  width: 99%;
 }
 .clickable {
-  width: 2%;
+  width: 1%;
   background-color: #5a858e;
 }
 .menu > nav > ul {
@@ -127,13 +127,12 @@
     background-color: #1d4b70;
     width: 40px;
     height: 40px;
-    width: 35px;
+    width: 33px;
     height: 32px;
     position: absolute;
-    /* top: -42px; */
+    top: -90px;
     /* left: 0px; */
     right: 10px;
-    bottom: 0px;
   }
   .meeeeeeeeeeeeeeeee {
     display: flex;
