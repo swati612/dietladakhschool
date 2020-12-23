@@ -31,9 +31,7 @@ video {
     display: inline;
     /*zoom: 1;*/
 }
-audio:not([controls]) {
-    display: none;
-}
+
 a {
     margin: 0;
     padding: 0;
@@ -380,25 +378,8 @@ body {
     background: url(../images/ico-link-dark.png) no-repeat;
     margin-left: 5px;
 }
-.accessibility {
-    float: right;
-}
-.accessibility a.skip-cont {
-    float: left;
-    margin-top: 4px;
-}
-ul.social-links {
-    float: left;
-    margin: 2px 0px 0px 12px;
-    font-size: 100%;
-}
-ul.social-links li {
-    float: left;
-    margin-left: 5px;
-}
-ul.social-links li:first-child {
-    margin-left: 0px;
-}
+
+
 ul.font-controll {
     float: left;
     margin: 4px 0px 0px 15px;
@@ -770,7 +751,7 @@ th {
         font-weight: 600;
         font-size: 13px;
     }
-    .ico-site-search .search-drop {left:0px;}
+
 }
     .guide-text i {
         font-size: 14px;
@@ -795,276 +776,32 @@ th {
     width: 100%;
     position: relative;
 }
-.common-left {
-    float: left;
-    position: relative;
-}
-.common-right {
-    float: right;
-    position: relative;
-}
-.common-left ul li {
-    float: left;
-    line-height: 132%;
-    font-size: 65%;
-    font-weight: 600;
-    text-transform: uppercase;
-    height: 36px;
-    padding-top: 6px;
-    padding-right: 8px;
-}
-.common-left ul li.gov-india {
-    text-align: right;
-}
-.common-left ul li span {
-    display: block;
-    font-size: 120%;
-}
-.common-left ul li.ministry {
-    padding-left: 8px;
-    border-left: 1px solid #e2e0e0;
-}
-.common-right ul li {
-    float: left;
-    position: relative;
-    height: 36px;
-    font-size: 65%;
-    text-align: center;
-    border-left: 1px solid #e2e0e0;
-}
-.common-right ul .language > a {
-    background-image: none !important;
-}
+
+
 .cmf_lan a {
     width: auto !important;
     background-image: none !important;
     padding: 6px 5px;
 }
-.common-right ul ul li.hover a {
-    background-color: #d4d3d3 ;
-}
-.common-right ul li ul li.hover a{
-	background-color:#cfcfcf;
-}
-.common-right ul .cmf_lan.hover a {
-    background-color: transparent;
-}
-/*
-.sprite1>a,
-#header-nav>li>a {
-    background-image: url(../images/sprite1.png);
-    background-repeat: no-repeat;
-}
-.common-right ul li.ico-skip > a {
-    background-position: -124px 7px !important;
-}
-.common-right ul li.ico-skip.hover > a,
-.common-right ul li.ico-skip > a:focus {
-    background-position: -124px -27px !important;
-}
-.common-right ul li.ico-accessibility > a {
-    background-position: 7px 7px !important;
-}
-.common-right ul li.ico-accessibility.hover > a,
-.common-right ul li.ico-accessibility > a:focus {
-    background-position: 7px -27px !important;
-}
-.common-right ul li.ico-social > a {
-    background-position: -28px 7px !important;
-}
-.common-right ul li.ico-social.hover > a,
-.common-right ul li.ico-social > a:focus {
-    background-position: -28px -27px !important;
-}
-.common-right ul li.ico-login > a {
-    background-image: url(../images/ico-login.png);
-}
-.common-right ul li.ico-login.hover > a {
-    background-image: url(../images/ico-login.png);
-}
-.common-right ul li.ico-site-search > a {
-    background-position: -59px 7px !important;
-}
-.common-right ul li.ico-site-search.hover > a,
-.common-right ul li.ico-site-search > a:focus {
-    background-position: -59px -27px !important;
-}
-.common-right ul li.ico-sitemap > a {
-    background-position: -90px 7px !important;
-}
-.common-right ul li.ico-sitemap.hover > a,
-.common-right ul li.ico-sitemap > a:focus {
-    background-position: -90px -27px !important;
-}
-*/
-.common-right ul .language>a {
-    background-image: none !important;
-}
 
-.common-right ul li a {
-    display: block;
-    width: 38px;
-    height: 36px;
-    font-size: 90%;
-    background-repeat: no-repeat;
-    background-position: center !important;
-}
-/*.common-right ul li.ico-skip > a{background:url(../images/ico-skip.png) no-repeat; text-indent:-2000px;}
-.common-right ul li.ico-accessibility > a{background:url(../images/ico-accessibility.png) no-repeat; text-indent:-2000px;}
-.common-right ul li.ico-social > a{background:url(../images/ico-social.png) no-repeat; text-indent:-2000px;}
-.common-right ul li.ico-login > a{background:url(../images/ico-login.png) no-repeat; text-indent:-2000px;}
-.common-right ul li.ico-site-search > a{background:url(../images/ico-site-search.png) no-repeat; text-indent:-2000px;}
-.common-right ul li.ico-sitemap > a{background:url(../images/ico-sitemap.png) no-repeat; text-indent:-2000px;}
-*/
 
-.common-right ul li.hindi > a {
-    font-weight: 600;
-	padding-top: 9px;
-	font-size:135%;
-}
-.search-drop input[type='text'] {
-    border: 1px solid #eeeeee;
-    height: 36px;
-    padding: 0px 40px 0px 8px;
-    width: 200px;
-}
 .skip-main a {
     width: auto !important;
     line-height: normal;
     display: inline-block;
 	padding-top:3px;
 }
-.common-right ul li a {
-    opacity: 1;
-}
-.common-right ul > li > a {
-	padding:6px;
-	font-size:120%;
-}
-.common-right ul li.hover a {
-    opacity: 1;
-	background: #d9d9d9;
-}
-.common-right ul li.ico-accessibility ul,
-.common-right ul li.ico-social ul {
-    position: absolute;
-    top: 36px;
-    right: 0px;
-    z-index: 9999;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    background: #d4d3d3;
-    padding: 0px 0px;
-    visibility: visible;
-    
-}
-.common-right ul li ul {
-    position: absolute;
-	height: auto;
-    top: 37px;
-	font-size: 150%;
-    left: 0;
-    z-index: 9999;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    background: #fff;
-    padding: 9px 8px;
-    visibility: hidden;
-}
-.ico-site-search .search-drop {
-    visibility: visible;
-    position: absolute;
-    right: 0;
-    top: 36px;
-    z-index: 1;
-}
-.common-right ul li ul li {
-    float: none !important;
-	text-align: left;
-	width:100%;
-    position: relative;
-    height: auto;
-    padding: 0px 0px;
-    border-left: 0px solid #eeeeee;
-    border-top: 1px solid #cecece;
-    /*background: #434343;*/
-}
-/*.common-right ul li.hover ul{visibility:visible;}*/
-
-.common-right li:hover>ul,
-.common-right li.hover>ul,
-.common-right a:focus+ul{
-    visibility: visible !important;
-}
-
-
-.common-right ul li.ico-social ul li {
-    width: 38px;
-    text-align: center;
-    padding: 3px 0px;
-}
-.common-right ul li.ico-social ul li a {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-    display: inline-block;
-    height: 22px;
-    margin-top: 0px;
-    width: 22px;
-}
-.common-right ul li.ico-social ul {
-    padding: 0 0 3px 0px;
-    height: auto;
-}
-.common-right ul li.ico-accessibility ul {
-    /*height:132px;*/
-}
-/*.common-right ul li.ico-social ul{height:102px;}*/
-
-.common-right ul li.ico-accessibility ul li a:active focus {
-    color: #000;
-    display: inline-block;
-    height: auto;
-    line-height: 22px;
-    margin-top: 0px;
-    width: 38px;
-	font-size:150%;
-    text-align: center;
-    padding: 3px 0px;
-}
 
 
 
-.common-right ul li.ico-accessibility ul li:first-child a {
-    margin-top: 0px;
-}
-.common-right ul li.ico-social ul li a {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-    display: inline-block;
-    height: 22px;
-    margin-top: 0px;
-    width: 22px;
-}
-.common-right ul li.ico-social ul li:first-child a {
-    margin-top: 0px;
-}
-.common-right ul li.ico-social ul li a:focus {
-    outline: 1px dotted #ccc;
-}
+
 .sw-logo {
     display: inline-block;
 }
 a:focus {
     outline: .1em dotted #333;
 }
-.common-left ul li.gov-india a:hover {
-    color: #000 !important;
-}
-.common-left ul li.gov-india a:focus {
-    color: #000 !important;
-}
-.common-left a {
-    display: block;
-}
-.common-left a:focus {
-    color: #000 !important;
-}
+
 .form-item .error {
     border: 1px solid #f6aeae !important;
 }
@@ -1122,7 +859,6 @@ a:focus {
 	background:none;
 	padding:0;
 }
-.common-right ul li.ico-site-search #edit-search-block-form--2,
 #search-form #edit-keys {
     border: 2px solid #aa2323;
     height: 36px;
@@ -1166,7 +902,6 @@ a {
 	display:inline-block;
 }
 
-.common-right ul li.ico-accessibility ul li a:focus,
 #flexCarousel ul li a:focus {
     outline: dotted 1px #000;
 }
@@ -1188,68 +923,26 @@ a {
 .cmf_lan select {
     height: 25px;
 }
-.common-left ul li span.li_eng {
-    font-size: 106%;
-}
 
-.common-right ul li.ico-skip > a, .common-right ul li.ico-accessibility > a, .common-right ul li.ico-social > a, .common-right ul li.ico-site-search > a, .common-right ul li.ico-sitemap > a{
-	/*text-indent:-9999px;*/
-}
+
+
 .cmf_lan ul li a{
 	height:auto;
 	font-size:150%;
 }
-.common-right ul li.ico-skip a{
-	width:auto;
-	height:auto;
-	font-weight:600;
-	text-transform:uppercase;
-	padding-top: 10px;
-}
-.common-right ul li.ico-skip:hover{
-	background:none;
-}
-.common-right ul li.ico-skip a:hover, .common-right ul li.ico-skip a:focus, .common-right ul li.ico-skip:hover, .common-right ul li.ico-skip:focus{
-	background:none;
-}
+
 .ico-social ul li a{
 	padding:0;
 }
 .ico-skip.hover a{
    background:none !important;
 }
-/*****************For Search *******************/
-.ico-site-search .both-search .find{display:block;}
-.ico-site-search .both-search .google-find{display:none;}
-.stqc-logo{
-    position: absolute;
-    bottom: 10px;
-    right: 15px;
-}
+
 
 section.wrapper.header-wrapper {
     z-index: 0;
 }
 
-
-.lad1desgn{
-	background-image: url("../images/cus/lad1.svg");
-	min-height:20px;
-	background-size: 20px 20px;
-	border:solid 1px;
-}
-
-
- .ladcorner {
-    /* border: 3px solid #6942de;
-   
-    padding: 20px 2px 20px 20px; */
-
-}
-
-.ladcornerinner{
-	
-}
 
 .ladscript{
 
@@ -1258,21 +951,7 @@ section.wrapper.header-wrapper {
   height: auto;
 }
 
-.ladback1_left{
 
-	background-image: url("../images/cus/singleline_desing_golden_left.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 30px;
-height: 100%;
-}
-.ladback1_right{
-	background-image: url("../images/cus/singleline_desing_golden_right.png");
-	background-position: center ;
-	background-repeat: no-repeat;
-	background-size: 30px;
-	height: 100%;
-}
 
 .flex-caption {
   text-align: center;
@@ -1293,21 +972,13 @@ height: 100%;
   font-size: 15px;
   line-height: 15px;
   margin: auto;
-  /* background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 49%, rgba(255, 255, 255, 0) 100%); */
-  /* background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(49%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0))); */
-  /* background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 49%, rgba(255, 255, 255, 0) 100%); */
-  /* background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 49%, rgba(255, 255, 255, 0) 100%); */
-  /* background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 49%, rgba(255, 255, 255, 0) 100%); */
-  /* background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 49%, rgba(255, 255, 255, 0) 100%); */
-  /* filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1); */
+  
 }
 .important-links-list {
 	  width: 100%;
 	  margin:0 auto;
 }
-.minister{
-	margin-top:40px;
-}
+
 .left-block{
 	margin-bottom:40px;
 }
@@ -1344,7 +1015,7 @@ height: 100%;
 }
 .data-table-1 caption{
   color:#FFFFFF;
-  background-color:#BF360C;
+  background-color:#72a8b3;
   font-size:1.3em;
 }
 .bgwhite{

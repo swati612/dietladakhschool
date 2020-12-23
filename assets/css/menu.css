@@ -1,6 +1,9 @@
 .L {
   float: left;
 }
+.meeeeeeeeeeeeeeeee {
+  display: flex;
+}
 .menu {
   background-image: url("http://dc345.4shared.com/img/g7RtSxFb/s3/140f9a58cd8/MenuBG.png");
   background-position: center center;
@@ -13,11 +16,14 @@
 .menu > nav,
 .menu > ul {
   display: inline-block;
-  width: 100%;
+  width: 98%;
 }
-
+.clickable {
+  width: 2%;
+  background-color: #5a858e;
+}
 .menu > nav > ul {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
 }
 .first,
@@ -121,12 +127,34 @@
     background-color: #1d4b70;
     width: 40px;
     height: 40px;
-
-    position: fixed;
-    top: 107px;
+    width: 35px;
+    height: 32px;
+    position: absolute;
+    /* top: -42px; */
     /* left: 0px; */
-    cursor: pointer;
-    right: 0;
+    right: 10px;
+    bottom: 0px;
+  }
+  .meeeeeeeeeeeeeeeee {
+    display: flex;
+    position: relative;
+  }
+  .menu > nav > ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .first,
+  .first > a {
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: Tahoma;
+    color: #fff;
+    text-align: left;
+
+    padding-bottom: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
   }
 }
 .footer {
