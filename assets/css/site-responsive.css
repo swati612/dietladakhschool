@@ -4,14 +4,6 @@
     padding-top: 10px;
   }
 
-  #flexCarouse2 .flex-pauseplay {
-    top: 55px;
-  }
-
-  .wrapper.related-whatsnew-link .whats-new-wrapper {
-    width: 100%;
-    padding: 30px 30px;
-  }
   .wrapper.related-whatsnew-link .related-link-wrapper {
     width: 100%;
     padding: 30px;
@@ -69,17 +61,6 @@
     width: 100% !important;
     padding: 0;
     height: auto;
-  }
-
-  .resp-tab-content {
-    min-height: 305px;
-  }
-  .om-orders a {
-    font-size: 100%;
-  }
-  .om-orders a {
-    padding-left: 59px;
-    background-size: 30% !important;
   }
 
   .related-links ul.list li {
@@ -143,19 +124,11 @@
   .view {
     margin-top: 13px;
   }
-  .om-orders {
-    padding: 13px;
-    margin-top: 22px;
-  }
 
   .poorpatient-content {
     margin-bottom: 46px;
   }
 
-  .social-feeds .panel-social {
-    padding-right: 2%;
-    width: 45%;
-  }
   .panel-feed {
     padding-left: 2%;
     width: 55%;
@@ -227,10 +200,6 @@
     margin-top: 0.5em;
     margin-right: 0px;
   }
-  .imp-img-cir ul.ul-v > li {
-    width: 33%;
-    vertical-align: top;
-  }
 
   .ebook-maincontainer {
     float: right;
@@ -256,21 +225,6 @@
 
   .sub-nav li {
     background: none;
-  }
-
-  .social-feeds .panel-social {
-    float: none;
-    padding-right: 0;
-    width: 100%;
-  }
-  .panel-feed {
-    padding-left: 0px;
-    width: 100%;
-    float: none;
-    padding-top: 40px;
-  }
-  .socialTab_1 iframe {
-    width: 100% !important;
   }
 
   .imp-link .quicklink {
@@ -422,7 +376,8 @@
     width: 46%;
     padding: 0px 0px;
     margin: 5px 5px;
-    min-height: 180px;
+
+    min-height: 160px;
   }
   ul.important-links-list li a {
     padding: 5px 3px;
@@ -477,7 +432,7 @@
     padding: 0px 0px;
   }
   .tablink {
-    font-size: 18px;
+    font-size: 17px;
   }
   .tabcontent > ol > li {
     font-size: 14px;
@@ -639,9 +594,7 @@
   ul.ul-v > li a {
     font-size: 1em;
   }
-  .imp-img-cir ul.ul-v > li {
-    width: 50%;
-  }
+
   .left-menu ul {
     border: none;
     padding: 0px;
@@ -671,16 +624,8 @@
     float: right;
   }
 
-  .om-orders a {
-    background-size: 61px auto !important;
-    padding-left: 74px;
-  }
-
   .slide-caption {
     width: 100%;
-  }
-  .panel-social .resp-tabs-list li {
-    padding: 10px 17px;
   }
 
   .resp-tabs-container {

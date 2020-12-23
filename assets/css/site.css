@@ -550,38 +550,6 @@ a.read-more:hover {
 }
 
 
-.om-orders {
-  background: #367588;
-  padding: 20px;
-}
-
-.om-orders a {
-  display: block;
-  background: url(../images/icons/ico-om-orders.png) no-repeat left bottom;
-  padding-left: 75px;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 120%;
-  font-weight: 600;
-  color: #fff;
-}
-
-.om-orders a input {
-  display: block;
-  background: #fff;
-  color: #1d1d1d;
-  padding: 8px 10px;
-  outline: none;
-  border: none;
-  width: 100%;
-  margin-top: 5px;
-}
-
-.om-orders:hover a input {
-  background: #004242;
-  color: #fff;
-}
-
 .related-links {
   padding-top: 30px;
 }
@@ -901,16 +869,7 @@ li.nav-item:hover {
 
 
 
-.newsTickers ul {
-  width: 100%;
-}
 
-
-
-
-.socialTab_1 iframe {
-  height: 430px !important;
-}
 
 .item-list {
   margin: 0;
@@ -992,7 +951,7 @@ ul.ul-v > li a {
 .left-block {
   float: left;
   width: 100%;
-  padding: 40px 0px;
+  padding: 40px 0px 0px 0;
 }
 
 .left-block .view-footer a:after {
@@ -1018,37 +977,9 @@ ul.ul-v > li a {
   float: right;
 }
 
-.imp-img-cir ul.ul-v > li {
-  width: 20%;
-  margin-right: -5px;
-  text-align: center;
-  vertical-align: top;
-}
 
-.imp-img-cir ul.ul-v > li a .img-cr {
-  background: #c00000;
-  width: 70px;
-  padding-top: 10px;
-  height: 70px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 10px;
-}
 
-.imp-img-cir ul.ul-v > li h5 {
-  font-weight: 600;
-}
 
-.imp-img-cir ul.ul-v > li a:hover .img-cr,
-.imp-img-cir ul.ul-v > li a:hover {
-  background: #000;
-  color: #000;
-}
-
-.imp-img-cir ul.ul-v > li a,
-.imp-img-cir ul.ul-v > li {
-  color: #fff;
-}
 
 .copyright-content span {
   color: #fff;
@@ -2325,17 +2256,7 @@ i.fa.fa-twitter {
   );
 }
 
-.wrapper.related-whatsnew-link .whats-new-wrapper {
-  width: 50%;
-  background: #fe4b37;
-}
 
-.wrapper.related-whatsnew-link .whats-new-wrapper {
-  width: 50%;
-  background: #bd371a;
-  float: left;
-  padding: 40px 0px;
-}
 
 .wrapper.related-whatsnew-link .related-link-wrapper {
   float: right;
@@ -2343,11 +2264,6 @@ i.fa.fa-twitter {
   padding: 30px 0px 0px 30px;
 }
 
-.wrapper.related-whatsnew-link .whats-new-wrapper h2 {
-  color: #fff;
-  font-size: 183.333%;
-  padding-bottom: 20px;
-}
 
 .wrapper.related-whatsnew-link .related-link-wrapper h2 {
   color: #000;
@@ -2355,40 +2271,11 @@ i.fa.fa-twitter {
   padding-bottom: 20px;
 }
 
-.wrapper.related-whatsnew-link .whats-new-wrapper .list-content a {
-  display: inline-block;
-  margin-top: 5px;
-  font-size: 112.5%;
-  color: #fff;
-}
-
-.whats-new-text .list li a:before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: 1;
-  left: 5px;
-  top: 10px;
-  bottom: 10px;
-  height: auto;
-  border: 2px solid #fff;
-}
-
-.whats-new-text .view-all {
-  padding: 30px 15px;
-}
 
 .Related-links-text .view-all {
   padding: 30px 0px;
 }
 
-.whats-new-text .view-all button {
-  padding: 5px 15px;
-  background: #fff;
-  border: 0px;
-  float: right;
-  border: 1px solid #ccc;
-}
 
 .Related-links-text .view-all button {
   padding: 5px 15px;
