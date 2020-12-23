@@ -204,8 +204,6 @@ ul#nav li a i.fa-home {
   right: 5px;
 }
 
-/*.gallery-right{position:relative;width:30%;float:right;padding-top:70px}*/
-
 .bttn-intrct {
   border: 1px solid #ffd800;
   display: inline-block;
@@ -228,10 +226,6 @@ ul#nav li a i.fa-home {
   background: #ffd800;
   color: #333;
 }
-
-/*.gallery-right ul li{color:#fff;font-size:110%;background:url(../images/blt-green.png) no-repeat 0 4px;padding:0 0 15px 20px}
-.gallery-right ul li a{color:#fff}
-.gallery-right ul li a:hover{text-decoration:underline}*/
 
 .gallery-heading {
   left: 0px;
@@ -1526,7 +1520,7 @@ ul.ul-v > li a {
 
 .left-block {
   float: left;
-  width: 73%;
+  width: 100%;
   padding: 40px 0px;
 }
 
@@ -2028,15 +2022,6 @@ em {
 
 /*--------------------------*/
 
-.gallery-right {
-  width: 32%;
-  float: right;
-  height: auto;
-  margin: 0px 0;
-  position: relative;
-  opacity: 1;
-}
-
 .icon-announcement {
   background: url(../images/icons/feed-back-icon.png) no-repeat center 25px;
   border-right: 1px solid #1c3957;
@@ -2283,30 +2268,6 @@ h2.resp-accordion {
   position: relative;
 }
 
-.locations-list .resp-tabs-list li.resp-tab-active,
-.locations-list .resp-tabs-list li:hover {
-  background: none !important;
-  border-left: none !important;
-  border-right: none !important;
-  border-top: none !important;
-  color: #1c1b1b !important;
-  position: relative;
-}
-
-.locations-list .resp-tabs-list li {
-  border-left: none !important;
-  border-right: none !important;
-  border-top: none !important;
-  color: #585151;
-  float: left;
-  font-size: 150%;
-  font-weight: 400;
-  margin: 0 15px 0 0;
-  padding: 0px 15px 0px 18px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .tab-list-heading .resp-tab-active:after {
   content: "";
   display: block;
@@ -2316,47 +2277,6 @@ h2.resp-accordion {
   height: 13px;
   bottom: -23px;
   left: 43%;
-}
-
-.locations-list {
-  margin-top: 15px;
-}
-
-.locations-list .resp-tabs-list li.man-made-list,
-.locations-list .resp-tabs-list li.man-made-list:hover,
-.locations-list .resp-tabs-list li.man-made-list.resp-tab-active {
-  background: url(../images/ico-man-made-list.png) no-repeat 0px 11px !important;
-}
-
-.locations-list .resp-tabs-list li.natural-list,
-.locations-list .resp-tabs-list li.natural-list:hover,
-.locations-list .resp-tabs-list li.natural-list.resp-tab-active {
-  background: url(../images/ico-natural-list.png) no-repeat 0px 11px !important;
-}
-
-.locations-list .resp-tabs-list {
-  border-bottom: 4px solid #c0c0c0;
-  padding-bottom: 10px;
-}
-
-.locations-list .resp-tabs-container ul li {
-  display: block;
-  float: none;
-  width: 100%;
-  padding-bottom: 0px;
-  background: url(../images/ico-list-bullete.png) no-repeat 0px 9px;
-  padding-left: 15px;
-  margin: 8px 0px;
-  font-size: 95%;
-}
-
-.locations-list .resp-tabs-container ul li a {
-  color: #1c1b1b;
-}
-
-.locations-list .resp-tabs-container ul li a:hover,
-.locations-list .resp-tabs-container ul li a.active {
-  color: #f26c4f;
 }
 
 .common-wrapper .container.common-container.four_content {
@@ -3202,14 +3122,6 @@ button.text-slide1.pause::after {
   text-decoration: none;
 }
 
-.gallery-right a.bttn-more.bttn-view:after {
-  content: "\2192";
-  color: #e22d15;
-  padding-left: 5px;
-  font-size: 15px;
-  text-decoration: none;
-}
-
 .minister .min-info h3 a {
   color: #000;
   font-weight: 400;
@@ -3221,17 +3133,18 @@ button.text-slide1.pause::after {
 
 ul.important-links-list li {
   float: left;
-  width: 31.33%;
+  width: 23.33%;
   padding: 15px 15px;
   margin: 0px 6px 10px 6px;
   background: #fff;
   text-align: center;
+  min-height: 238px;
 }
 
 ul.important-links-list li a {
   border: 2px dashed #7a82d6;
   display: block;
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
 }
 
 ul.important-links-list li a .icon-text {
@@ -3250,9 +3163,11 @@ ul.important-links-list li a h5 {
   font-size: 112.5%;
   text-align: left;
 }
+.important-links > a > img {
+  width: 100%;
+  max-height: 200px;
 
-ul.important-links-list li a img {
-  padding-left: 15px;
+  min-height: 200px;
 }
 
 .notification h3:after {
@@ -3683,8 +3598,7 @@ div#parentHorizontalTab {
 }
 
 .tab-left {
-  width: 69%;
-  margin-right: 1%;
+  width: 100%;
 }
 .tabtop {
   margin-top: 40px;
@@ -3697,7 +3611,12 @@ div#parentHorizontalTab {
   background-color: #c43030;
   color: #fff;
 }
-
+li.important-links > h4 {
+  font-size: 17px;
+  padding-top: 10px;
+  color: #31d81d;
+  font-weight: 600;
+}
 /* #Home {
   background-color: red;
 }
@@ -3709,5 +3628,5 @@ div#parentHorizontalTab {
 } */
 
 .imageschool {
-  height: 66px;
+  /* height: 140px; */
 }
