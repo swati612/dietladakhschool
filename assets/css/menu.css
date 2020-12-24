@@ -100,6 +100,9 @@
 .first:last-child > ul {
   margin-left: -52px;
 }
+.container.common-container.four_content > h2 {
+  padding-top: 20px;
+}
 @media screen and (max-width: 655px) {
   .menu {
     background-color: #1d4b70;
