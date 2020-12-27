@@ -37,16 +37,6 @@
     font-size: 94%;
   }
 
-  #flexCarouse2 .flex-direction-nav {
-    position: absolute;
-    right: 0;
-    width: 90px;
-    height: 42px;
-    top: -4px;
-    background: #333;
-    margin: 4px 0px;
-  }
-
   .view-footer-tab a {
     margin-top: 10px;
   }
@@ -138,10 +128,6 @@
 @media all and (max-width: 1023px) {
   .common-right ul li.ico-skip a {
     display: none;
-  }
-
-  #flexCarouse2 .flex-direction-nav {
-    margin-top: 4px;
   }
 
   .logo {
@@ -373,7 +359,7 @@
     margin-top: 0px;
   }
   ul.important-links-list li {
-    width: 46%;
+    width: 47%;
     padding: 0px 0px;
     margin: 5px 5px;
 
@@ -497,27 +483,6 @@
     width: 100%;
   }
 
-  #flexCarouse2 .flex-pauseplay {
-    height: 30px;
-    width: 30px;
-    top: 40px;
-    right: 0;
-  }
-
-  #flexCarouse2 .flex-pauseplay a {
-    padding: 3px;
-
-    position: initial;
-
-    margin: auto;
-
-    border: 1px solid #fff;
-
-    height: 30px;
-
-    width: 30px;
-  }
-
   .view-footer-tab a {
     margin: 28px 0px 0 0;
     color: #fff;
@@ -527,9 +492,6 @@
   }
   .view-footer-tab a:after {
     color: #fff;
-  }
-  #flexCarouse2 .flex-direction-nav {
-    display: none;
   }
 
   nav {
@@ -544,10 +506,6 @@
   }
   nav {
     margin-top: 4px;
-  }
-
-  #flexCarouse2 .flex-pauseplay a {
-    bottom: 17px !important;
   }
 }
 @media (min-width: 961px) and (max-width: 1200px) {
@@ -694,10 +652,6 @@
 
   nav {
     margin-top: 4px;
-  }
-
-  #flexCarouse2 .flex-pauseplay a {
-    bottom: 17px !important;
   }
 }
 @media (max-width: 639px) and (min-width: 341px) {
@@ -858,10 +812,6 @@
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
-  #flexCarouse2 .flex-direction-nav {
-    margin-top: 4px;
-  }
-
   .new-letter .new-icon {
     width: 70px;
   }
@@ -1116,11 +1066,6 @@
 }
 
 @media all and (max-width: 767px) {
-  #flexCarouse2 {
-    padding: 0;
-    width: 100%;
-  }
-
   .logo {
     line-height: 130%;
   }
@@ -1154,9 +1099,6 @@
     width: 50%;
   }
 
-  #flexCarouse2 .flex-pauseplay a {
-    bottom: 0px;
-  }
   .four_content .common-left ul li {
     width: 50%;
     padding-bottom: 10px;

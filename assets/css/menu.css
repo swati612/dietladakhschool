@@ -241,9 +241,6 @@
 .footer_menu > ul > li > a {
   color: #fff;
 }
-.footer-bottom {
-  background-color: #131313;
-}
 
 #topBar {
   border-bottom: 1px solid #c2c0c1;
@@ -272,4 +269,15 @@ button.owl-prev > span {
 }
 button.owl-next > span {
   font-size: 20px;
+}
+
+.getmore {
+  float: right;
+  color: #0f0101;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: 7px 14px;
+  margin-bottom: 10px;
 }
