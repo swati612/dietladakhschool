@@ -358,20 +358,27 @@
   .drop-wrapper button {
     margin-top: 0px;
   }
+  .important-links-list {
+    margin-bottom: 0px;
+  }
   ul.important-links-list li {
     width: 47%;
     padding: 0px 0px;
     margin: 5px 5px;
-
-    min-height: 160px;
   }
-  ul.important-links-list li a {
-    padding: 5px 3px;
-  }
-  ul.important-links-list li a .icon-text {
-    height: 60px;
+  .important-links > a > img {
+    width: 100%;
+    max-height: 170px;
+    min-height: 170px;
   }
 
+  li.important-links > a > h4 {
+    font-size: 14px;
+    padding-top: 10px;
+    color: #4e738a;
+    font-weight: 600;
+    background-color: #fff;
+  }
   .four_content .common-left ul li span {
     font-size: 120%;
   }
@@ -1131,17 +1138,6 @@
   }
   a.portgolio-button {
     padding: 5px 10px;
-  }
-  .important-links > a > img {
-    width: 100%;
-    max-height: 150px;
-    min-height: 150px;
-  }
-  li.important-links > h4 {
-    font-size: 14px;
-    padding-top: 10px;
-
-    font-weight: 600;
   }
 }
 

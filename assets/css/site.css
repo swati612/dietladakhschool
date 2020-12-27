@@ -525,10 +525,6 @@ ul.ul-v > li a {
 }
 
 
-.left-block ul.important-links-list {
-  display: inline-block;
-}
-
 
 .copyright-content span {
   color: #fff;
@@ -1208,14 +1204,20 @@ button.text-slide1.pause::after {
   background: #333;
 }
 
+.important-links-list {
+  width: 100%;
+  margin:0 auto;flex-wrap: wrap;
+  display: flex;justify-content: space-between;margin-bottom: 15px;margin-top: 10px;
+}
+
 ul.important-links-list li {
-  float: left;
+  
   width: 23.90%;
   padding: 15px 15px;
   margin: 0px 6px 10px 6px;
   background: #fff;
   text-align: center;
-  min-height: 238px;
+  /* min-height: 238px; */
 }
 
 ul.important-links-list li a {
@@ -1223,29 +1225,30 @@ ul.important-links-list li a {
   display: block;
   /* padding: 10px 10px; */
 }
-
-ul.important-links-list li a .icon-text {
-  width: 100%;
-  height: 45px;
-}
-
-ul.important-links-list li a h4 {
-  color: #000000;
-  font-size: 112.5%;
-  text-align: left;
-}
-
-ul.important-links-list li a h5 {
-  color: #000000;
-  font-size: 112.5%;
-  text-align: left;
-}
-.important-links > a > img {
-  width: 100%;
-  max-height: 200px;
-
+.important-links >a>img{
+  width:100%;max-height: 200px;
   min-height: 200px;
 }
+
+
+ul.important-links-list li:hover {
+  background: #5a858e;
+}
+ul.important-links-list li:hover a {
+  border: 2px dotted #fff;
+}
+
+
+
+
+li.important-links >a> h4 {
+  font-size: 17px;
+  padding-top: 10px;
+  color: #4e738a;
+  font-weight: 600;
+  background-color: #fff;
+}
+
 
 .notification h3:after {
   content: "";
@@ -1257,61 +1260,15 @@ ul.important-links-list li a h5 {
   left: 70px;
 }
 
-ul.important-links-list li:hover {
-  background: #5a858e;
-}
+
 
 .logo a span.mins {
   font-weight: 600;
   color: #000000d9;
 }
 
-ul.important-links-list li:hover a {
-  border: 2px dotted #fff;
-}
 
-ul.important-links-list li:hover a h4 {
-  color: #fff;
-}
 
-ul.important-links-list li:hover a h5 {
-  color: #fff;
-}
-
-.wrapper.important-links ul.important-links-list {
-}
-
-.wrapper.important-links .morelinks {
-  position: relative;
-}
-
-.wrapper.important-links .morelinks a {
-  position: absolute;
-  bottom: 9px;
-  right: 5%;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 5px 10px;
-}
-
-.wrapper.important-links .morelinks a:hover {
-  background: #fe9b00;
-  padding: 5px 10px;
-  color: #000;
-}
-
-i.fa.fa-facebook-square {
-  color: #325eba;
-  font-size: 24px;
-}
-
-i.fa.fa-twitter {
-  background: #32e3da;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 20px;
-}
 
 .drop-wrapper {
   padding: 0px 22px 0px 5px;
@@ -1491,9 +1448,4 @@ div#parentHorizontalTab {
   background-color: #c43030;
   color: #fff;
 }
-li.important-links > h4 {
-  font-size: 17px;
-  padding-top: 10px;
-  color: #31d81d;
-  font-weight: 600;
-}
+
