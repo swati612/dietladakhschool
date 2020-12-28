@@ -80,29 +80,11 @@
   .region-footer-secondcolumn .block-menu ul li {
     font-size: 88%;
   }
-  .resp-tab-content {
-    font-size: 96%;
-  }
 
-  .side-link .yellow {
-    font-size: 143%;
-  }
 
-  .side-link2 .yellow {
-    font-size: 153%;
-  }
-
-  .quick-link-text {
-    font-size: 93%;
-    padding-top: 21px;
-  }
 
   .related-links {
     padding-top: 27px;
-  }
-
-  .quick-links-section {
-    margin-top: 37px;
   }
 
   .related-links h3 {
@@ -135,9 +117,7 @@
   }
 }
 @media all and (max-width: 960px) {
-  .resp-tab-content {
-    min-height: 379px;
-  }
+ 
 
   .float-element {
     display: none;
@@ -161,18 +141,6 @@
   /*===========responsive nav ===========*/
   /*responsive nav theme*/
 
-  #nav li {
-    background: #cbc9c9;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  #nav li a {
-    color: #000;
-  }
-
-  #nav {
-    max-height: none;
-    overflow: visible;
-  }
   .mid-bg-wrapper .body-container {
     padding: 50px 0 5px;
   }
@@ -260,13 +228,7 @@
     margin: 0 0px;
   }
 
-  .side-link2 .yellow {
-    font-size: 143%;
-  }
-
-  .side-link .yellow {
-    font-size: 143%;
-  }
+ 
 }
 @media (min-width: 768px) and (max-width: 960px) {
   .new-letter {
@@ -287,41 +249,6 @@
     width: 49%;
     float: left;
     margin-right: 1%;
-  }
-
-  .resp-tabs-list li {
-    padding: 13px 8px;
-  }
-
-  .resp-tab-content {
-    font-size: 90%;
-  }
-
-  .resp-tab-content li span.ico-txt {
-    padding: 6px;
-    min-height: 165px;
-  }
-
-  .resp-tabs-container a {
-    background-position: 13px 142px;
-  }
-
-  .side-links {
-    width: 27%;
-    padding: 22px 10px;
-    font-size: 87%;
-  }
-
-  .view-footer-tab a {
-    margin-top: 20px;
-  }
-
-  .side-link2 .yellow {
-    font-size: 150%;
-  }
-
-  .side-link .yellow {
-    font-size: 150%;
   }
 
   .block-menu ul {
@@ -465,26 +392,8 @@
     margin: 20px 0px 0;
   }
 
-  .quick-link {
-    width: 48%;
-  }
-  .quick-link-text {
-    padding-top: 22px;
-  }
-  .quick-link:nth-child(even) {
-    margin-right: 0px;
-  }
-  .quick-link:nth-child(odd) {
-    margin-left: 0px;
-  }
-  .quick-links-section {
-    padding: 30px 20px;
-  }
 
-  .panel-feed .resp-tabs-list li a {
-    font-size: 74%;
-    font-weight: 600;
-  }
+
 
   .page-tab {
     width: 100%;
@@ -508,17 +417,13 @@
 @media (min-width: 961px) and (max-width: 1200px) {
 }
 @media (min-width: 768px) and (max-width: 960px) {
-  .side-links {
-    font-size: 90%;
-  }
+ 
   nav {
     margin-top: 4px;
   }
 }
 @media (min-width: 961px) and (max-width: 1200px) {
-  .side-links {
-    font-size: 90%;
-  }
+ 
 
   .common-left {
     padding-left: 35px;
@@ -531,18 +436,10 @@
 }
 
 @media (max-width: 700px) and (min-width: 600px) {
-  .side-links {
-    width: 100%;
-    overflow: auto;
-    min-height: auto;
-  }
+
 }
 @media (max-width: 601px) and (min-width: 480px) {
-  .side-links {
-    width: 100%;
-    overflow: auto;
-    min-height: auto;
-  }
+
 }
 @media all and (max-width: 640px) {
   .inner-wrapper .left-menu {
@@ -556,23 +453,14 @@
   .text-sm {
     font-size: 0.9em;
   }
-  ul.ul-v > li a {
-    font-size: 1em;
-  }
+ 
 
   .left-menu ul {
     border: none;
     padding: 0px;
     margin-bottom: 40px;
   }
-  .resp-tabs-list {
-    white-space: nowrap;
-    width: 100%;
-    overflow: auto;
-  }
-  .resp-tabs-list li {
-    float: none;
-  }
+
   .imp-link ul.ul-v > li {
     width: 100%;
   }
@@ -593,42 +481,13 @@
     width: 100%;
   }
 
-  .resp-tabs-container {
-    min-height: 0;
-  }
+
 
   .top-hanging-panel {
     border-left: 0;
     border-right: 0;
   }
 
-  ul.resp-tabs-list {
-    display: none;
-  }
-
-  h2.resp-accordion {
-    display: block;
-  }
-
-  .resp-vtabs .resp-tab-content {
-    border: 1px solid #c1c1c1;
-  }
-
-  .resp-vtabs .resp-tabs-container {
-    border: none;
-    float: none;
-    width: 100%;
-    min-height: 100px;
-    clear: none;
-  }
-
-  .resp-accordion-closed {
-    display: none !important;
-  }
-
-  .resp-vtabs .resp-tab-content:last-child {
-    border-bottom: 1px solid #c1c1c1 !important;
-  }
 
   .tab-section {
     margin-top: 0px;
@@ -652,10 +511,7 @@
   .page-tab ul.resp-tabs-list li {
     font-size: 86%;
   }
-  .side-links {
-    width: 100%;
-    min-height: 333px;
-  }
+ 
 
   nav {
     margin-top: 4px;
@@ -755,11 +611,7 @@
     padding: 1em;
   }
 
-  .side-links {
-    width: 100%;
-    overflow: auto;
-    min-height: auto;
-  }
+ 
 }
 @media all and (max-width: 400px) {
   .logo a strong {
@@ -786,14 +638,8 @@
     padding: 1em;
   }
 
-  .side-links {
-    width: 100%;
-    overflow: auto;
-  }
 
-  h2.resp-accordion:first-child {
-    border-top: 1px solid #feb372;
-  }
+
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
@@ -810,9 +656,7 @@
     color: #fff;
     margin-top: 0.5em;
   }
-  .side-links {
-    font-size: 100%;
-  }
+ 
   .common-left {
     padding-left: 0px;
     font-size: 95%;
@@ -834,37 +678,12 @@
     margin-top: 0.5em;
   }
 
-  .side-links {
-    font-size: 100%;
-  }
 
   ul.resp-tabs-list,
   p {
     margin-top: -5px;
   }
 
-  .side-links {
-    margin: 46px 0px;
-  }
-
-  .side-link {
-    display: inline-block;
-    width: 47%;
-    height: auto;
-  }
-
-  .side-links {
-    width: 100%;
-    min-height: auto;
-  }
-
-  .side-link2 {
-    display: inline-block;
-    padding-top: 30px;
-    width: 47%;
-    margin-left: 5%;
-    height: auto;
-  }
 
   .page-tab {
     width: 100%;
@@ -912,9 +731,7 @@
 }
 
 @media all and (max-width: 767px) {
-  .side-links {
-    margin: 0px 0px 36px 0px;
-  }
+ 
   .left-col-2 h2::after {
     top: 25px;
   }
@@ -933,45 +750,13 @@
     padding-top: 0;
     text-align: left;
   }
-  .vide-btm .ebook-txt {
-    padding: 0;
-  }
 
-  .resp-tabs-container {
-    min-height: 0;
-  }
 
   .top-hanging-panel {
     border-left: 0;
     border-right: 0;
   }
 
-  ul.resp-tabs-list {
-    display: none;
-  }
-
-  h2.resp-accordion {
-    display: block;
-  }
-  .resp-vtabs .resp-tab-content {
-    border: 1px solid #c1c1c1;
-  }
-
-  .resp-vtabs .resp-tabs-container {
-    border: none;
-    float: none;
-    width: 100%;
-    min-height: 100px;
-    clear: none;
-  }
-
-  .resp-accordion-closed {
-    display: none !important;
-  }
-
-  .resp-vtabs .resp-tab-content:last-child {
-    border-bottom: 1px solid #c1c1c1 !important;
-  }
 
   .tab-section {
     margin-top: 0px;
@@ -1038,27 +823,6 @@
     margin-right: 0;
   }
 
-  .increadible-india {
-    width: 170px;
-  }
-  .increadible-india .header-menu ul li {
-    width: 25%;
-  }
-  .increadible-india .header-menu ul li span {
-    width: 100%;
-  }
-  .increadible-india .header-menu {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .increadible-india {
-    margin-top: -12px;
-  }
-
-  .resp-tabs-container li {
-    width: 98%;
-  }
   .common-left ul li span.li_eng {
     font-size: 106%;
     text-align: left;
